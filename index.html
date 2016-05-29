@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset ="utf-8">
+
+  <title>Title of your project</title>
+  <meta name = "description" content="The HTML5 Herald">
+  <meta name = "author" content="SitePoint">
+
+</head>
+<body>
+  <style>
+.cats-container {
+  display: inline-block;
+  max-width: 45%;
+  padding: 10px;
+}
+.cats-container span,
+p {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 1em;
+  font-family: sans-serif;
+  text-align: center;
+}
+img {
+  width: 100%;
+  border-radius: 1em;
+}
+  </style>
+  <div id="cat1"class="cats-container">
+    <span id="cat1-name"> Cat #1 name</span>
+  <img src="https://lh3.ggpht.com/nlI91wYNCrjjNy5f-S3CmVehIBM4cprx-JFWOztLk7vFlhYuFR6YnxcT446AvxYg4Ab7M1Fy0twaOCWYcUk=s0#w=640&h=426" />
+</div>
+  <div id="cat2" class="cats-container">
+    <span id="cat2-name"> Cat #2 name</span>
+  <img src="https://lh3.ggpht.com/kixazxoJ2ufl3ACj2I85Xsy-Rfog97BM75ZiLaX02KgeYramAEqlEHqPC3rKqdQj4C1VFnXXryadFs1J9A=s0#w=640&h=496" />
+</div>
+<p id="clicker-counter">
+  clicker
+</p>
+  <script src = "./cat-clicker.js"></script>
+</body>
+</html>
